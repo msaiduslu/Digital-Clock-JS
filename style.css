@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-color: black;
+}
+
+main {
+  height: 100%;
+  color: white;
+  font-size: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  animation: rainbow-effect 3s ease-in-out infinite;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+div {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.date,.day{
+  font-size: 2rem;
+}
+
+
+
+
+@keyframes rainbow-effect {
+    10% {color: #ffcc00; }
+    25% {color: #43db2f; }
+    40% {color: #0DC8F5; }
+    60% {color: #f32105; }
+    80% {color: #a34b9d; }
+    100% {color: #DC2076;}
+}
