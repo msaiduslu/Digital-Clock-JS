@@ -2,7 +2,7 @@
 
 [👉 click here to view the page](https://msaiduslu.github.io/Digital-Clock-JS/)
 
-# Project-005 : Digital Clock
+# Project : Digital Clock
 
 ## Description
 
